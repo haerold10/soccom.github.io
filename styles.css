@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+#schedule-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.schedule-card {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.schedule-card:hover {
+  transform: scale(1.05);
+}
+.schedule-card h3 {
+  margin: 5px 0;
+  color: #333;
+}
+
+.schedule-card p {
+  margin: 0;
+  color: #555;
+}
+
+#community {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+  margin: 5px 0;
+  color: #333;
+}
+
+.post p {
+  margin: 0;
+  color: #555;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.comment p {
+  margin: 0;
+  color: #777;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
